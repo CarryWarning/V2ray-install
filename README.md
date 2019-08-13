@@ -1,6 +1,6 @@
-- *`注意:V2ray的使用需要保证VPS服务器和你使用的客户端之间的时差小于2分钟,因此从调整时间开始(默认中国大陆上海时间)`*
+- `注意:V2ray的使用需要保证VPS服务器和你使用的客户端之间的时差小于2分钟,因此从调整时间开始(默认中国大陆上海时间)`
 
-- *`建议使用 Debian 9 系统,其它系统不建议使用,可能会遇见 Common not found 报错`*
+- `建议使用 Debian 9 系统,其它系统不建议使用,可能会遇见 Common not found 报错`
 
 `cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`   修改VPS时间
 
