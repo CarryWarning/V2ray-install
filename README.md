@@ -28,6 +28,7 @@
 
 - 本地客户端配置:
 建议Windows使用GUI版本:[V2rayN](https://github.com/charlieethan/V2ray-install/releases/download/V1.0/v2rayN.zip)(点击下载)Android使用Google应用商店的`V2rayNG`.原项目地址点击[这里](https://github.com/2dust/v2rayN/releases)
+
 1.添加Vmess服务器
 
 2.*地址*为服务器IP,*用户ID* 为刚才生成的`用户uuid`,*额外ID* 为`使用的alterID数量`中填写的数字,*加密方式*随意,*传输协议*选择**Kcp**
