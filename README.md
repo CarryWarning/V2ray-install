@@ -2,13 +2,13 @@
 
 - `建议使用 Debian 9 系统,其它系统不建议使用,可能会遇见 Common not found 报错`
 
-`cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`   修改VPS时间
+①`cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`   修改VPS时间
 
-`date -R`  查看时间,确保时差小于2分钟
+②`date -R`  查看时间,确保时差小于2分钟
 
-`bash <(curl -L -s https://install.direct/go.sh)`  安装脚本
+③`bash <(curl -L -s https://install.direct/go.sh)`  安装脚本
 
-`vim /etc/v2ray/config.json`  修改配置文件 **`(需要删除原有全部配置信息,并复制新生成的配置文件)`**
+④`vim /etc/v2ray/config.json`  修改配置文件 **`(需要删除原有全部配置信息,并复制新生成的配置文件)`**
 
 在这个[网站](https://intmainreturn0.com/v2ray-config-gen/#) 生成V2ray配置文件:
 
@@ -22,11 +22,11 @@
 
 5.**为防止生成配置文件的网站不可使用,作为备用方案的本地配置文件生成器已上传,点击[这里](https://github.com/charlieethan/V2ray-install/releases/download/V2.0/V2RayConfig.zip)下载**
 
-`:wq`  保存并退出
+⑤`:wq`  保存并退出
 
-`service v2ray restart`  重启V2ray服务
+⑥`service v2ray restart`  重启V2ray服务
 
-`service v2ray status`  检查V2ray运行情况,若显示**Active**则运行正常
+⑦`service v2ray status`  检查V2ray运行情况,若显示**Active**则运行正常
 
 - 本地客户端配置:
 建议Windows使用GUI版本:[V2rayN](https://github.com/charlieethan/V2ray-install/releases/download/V1.0/v2rayN.zip)(点击下载),Android使用Google应用商店的`V2rayNG`.
