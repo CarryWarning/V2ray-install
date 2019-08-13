@@ -11,6 +11,7 @@
 `vim /etc/v2ray/config.json`  修改配置文件 **`(需要删除原有全部配置信息,并复制新生成的配置文件)`**
 
 在这个[网站](https://intmainreturn0.com/v2ray-config-gen/#) 生成V2ray配置文件:
+
 1.服务种类: Vmess
 
 2.用户设置: `用户uuid`旁点击`重新生成`,`使用的alterID数量`建议输入100~200内的数,可有效降低VPS服务器运算压力
