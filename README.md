@@ -23,7 +23,9 @@
 5.**为防止生成配置文件的网站不可使用,作为备用方案的本地配置文件生成器已上传,点击[这里](https://github.com/charlieethan/V2ray-install/releases/download/V2.0/V2RayConfig.zip)下载**
 
 `:wq`  保存并退出
+
 `service v2ray restart`  重启V2ray服务
+
 `service v2ray status`  检查V2ray运行情况,若显示**Active**则运行正常
 
 - 本地客户端配置:
