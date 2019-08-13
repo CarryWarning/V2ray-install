@@ -8,7 +8,7 @@
 
 `bash <(curl -L -s https://install.direct/go.sh)`  安装脚本
 
-`vim /etc/v2ray/config.json`  修改配置文件 **`(需要删除原有全部配置信息,并复制新生成的配置文件`**
+`vim /etc/v2ray/config.json`  修改配置文件 **`(需要删除原有全部配置信息,并复制新生成的配置文件)`**
 
 在这个[网站](https://intmainreturn0.com/v2ray-config-gen/#) 生成V2ray配置文件:
 > 服务种类: Vmess
