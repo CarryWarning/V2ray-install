@@ -27,7 +27,7 @@
 `service v2ray status`  检查V2ray运行情况,若显示**Active**则运行正常
 
 - 本地客户端配置:
-建议Windows使用GUI版本:[V2rayN](https://github.com/charlieethan/V2ray-install/releases/download/V1.0/v2rayN.zip)(点击下载)Android使用Google应用商店的`V2rayNG`.原项目地址点击[这里](https://github.com/2dust/v2rayN/releases)
+建议Windows使用GUI版本:[V2rayN](https://github.com/charlieethan/V2ray-install/releases/download/V1.0/v2rayN.zip)(点击下载),Android使用Google应用商店的`V2rayNG`.原项目地址点击[这里](https://github.com/2dust/v2rayN/releases)
 
 1.添加Vmess服务器
 
